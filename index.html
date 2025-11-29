@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raphael Stangl – AI Developer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f6fa;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e1e2f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #11111b;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    .project {
+      padding: 1rem;
+      border-left: 4px solid #4664ff;
+      background: #f0f3ff;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+    }
+    form label {
+      display: block;
+      margin-top: 1rem;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.7rem;
+      margin-top: 0.5rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      margin-top: 1rem;
+      padding: 0.8rem 1.2rem;
+      border: none;
+      background: #4664ff;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1e1e2f;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Raphael Stangl</h1>
+    <p>Software Developer – KI Automizations & AI Applications</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m <strong>Raphael Stangl</strong>, a software developer specializing in <strong>KI Automizations</strong> and <strong>AI Applications</strong>. I completed my <strong>HTL Abschluss</strong> and I am currently studying at the <strong>TU Wien</strong> (Vienna University of Technology).</p>
+    <p>I focus on building intelligent systems, automation tools, and modern software solutions that leverage AI to solve real‑world problems.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Project Title 1</h3>
+      <p>Description of your project. You can replace this with real content later.</p>
+    </div>
+
+    <div class="project">
+      <h3>Project Title 2</h3>
+      <p>Description of another project. Add images, links, or GitHub repos as needed.</p>
+    </div>
+
+    <div class="project">
+      <h3>Automation / AI Demo</h3>
+      <p>A short summary of an AI application or automation you built.</p>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <p>This section can contain Markdown‑generated posts or static HTML articles. You can expand it later.</p>
+
+    <article>
+      <h3>Sample Blog Post</h3>
+      <p>This is a placeholder post. Replace it with your own content about AI, automation, or your work.</p>
+    </article>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Use the form below to get in touch. This form works with <strong>Netlify Forms</strong> when deployed on Netlify.</p>
+
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
+
+      <label>Name</label>
+      <input type="text" name="name" required />
+
+      <label>Email</label>
+      <input type="email" name="email" required />
+
+      <label>Message</label>
+      <textarea name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© Raphael Stangl — All Rights Reserved</p>
+  </footer>
+</body>
+</html>
